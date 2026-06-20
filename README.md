@@ -9,7 +9,7 @@ Official implementation of the paper:
 
 # Architecture
 
-!<img width="1412" height="1566" alt="Image" src="https://github.com/user-attachments/assets/7c61718b-2850-48a9-89f2-143acfe99298" />
+<img width="1412" height="1566" alt="Image" src="https://github.com/user-attachments/assets/7c61718b-2850-48a9-89f2-143acfe99298" />
 
 FruArIC is a lightweight two-stage framework designed for container code recognition in resource-constrained edge environments.
 
@@ -48,40 +48,6 @@ FruArIC is a lightweight two-stage framework designed for container code recogni
 
 ---
 
-# Installation
-
-```bash
-conda create -n fruaric python=3.10 -y
-conda activate fruaric
-
-pip install -r requirements.txt
-```
-
----
-
-# Training
-
-## TailoredDet
-
-```bash
-python train_detector.py
-```
-
-## PureConvSTR
-
-```bash
-python train_recognizer.py
-```
-
----
-
-# Inference
-
-```bash
-python inference.py --image sample.jpg --weights weights/fruaric.pt
-```
-
----
 
 # Implementation Details
 
@@ -130,16 +96,8 @@ python inference.py --image sample.jpg --weights weights/fruaric.pt
 
 ---
 
-# Citation
 
-```bibtex
-@article{kang2026fruaric,
-  title={FruArIC: Frugal Architecture for Identifying Container Codes in Port Automation}
-}
-```
+# Usage
+
 
 ---
-
-# Acknowledgement
-
-The recognition module is adapted from the Deep Text Recognition Benchmark developed by Clova AI and modified for container code recognition.
