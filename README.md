@@ -9,7 +9,7 @@ Official implementation of the paper:
 
 # Architecture
 
-![Architecture](assets/architecture.png)
+!<img width="1412" height="1566" alt="Image" src="https://github.com/user-attachments/assets/7c61718b-2850-48a9-89f2-143acfe99298" />
 
 FruArIC is a lightweight two-stage framework designed for container code recognition in resource-constrained edge environments.
 
