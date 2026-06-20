@@ -77,5 +77,17 @@ FruArIC is a lightweight two-stage framework designed for container code recogni
 
 # Usage
 
+Run `main.py` with an input image and the pretrained model weights.
+```bash
+python main.py \
+  --image_path ./sample.jpg \
+  --detector_path ./weights/tailoreddet.pt \
+  --recognizer_path ./weights/pureconvstr.pth \
+  --FeatureExtraction CNN_s \
+  --input_channel 1 \
+  --output_channel 512 \
+  --padding 4
+```
+
 
 ---
