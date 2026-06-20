@@ -70,7 +70,7 @@ FruArIC is a lightweight two-stage framework designed for container code recogni
 
 # Experimental Results
 
-<img width="692" height="481" alt="Image" src="https://github.com/user-attachments/assets/80326eff-ae75-4458-aae8-0354a05a83d9" />
+<img width="692" height="449" alt="Image" src="https://github.com/user-attachments/assets/70fb6961-e38e-4006-9865-650469060d4a" />
 
 ---
 
