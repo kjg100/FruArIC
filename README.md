@@ -28,13 +28,6 @@ FruArIC is a lightweight two-stage framework designed for container code recogni
 | MACs | **2.118 G** |
 | CPU Latency | **13.955 ms** |
 
-### Compared with YOLOv12 + SRN
-
-- 98.6% fewer parameters
-- 72.5% fewer MACs
-- 77.4% lower latency
-- Only 1.9 percentage-point accuracy difference
-
 ---
 
 # Dataset
@@ -77,22 +70,7 @@ FruArIC is a lightweight two-stage framework designed for container code recogni
 
 # Experimental Results
 
-![Results](assets/results_table.png)
-
----
-
-# Ablation Studies
-
-### TailoredDet
-
-- P3-only detection branch
-- P5 backbone removal
-- Cross-YOLO validation
-
-### PureConvSTR
-
-- Hierarchical knowledge distillation
-- Distillation vs Pruning vs QAT
+<img width="692" height="481" alt="Image" src="https://github.com/user-attachments/assets/80326eff-ae75-4458-aae8-0354a05a83d9" />
 
 ---
 
